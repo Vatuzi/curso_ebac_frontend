@@ -87,6 +87,7 @@ section p{
 
 .redes-list img{
     height: 24px;
+    padding-left: 12px;
 }
 
 #contact .container{
@@ -129,4 +130,11 @@ form button:hover{
 
 input:focus,textarea:focus{
     outline-color:  rgb(72, 4, 136);
+}
+
+footer{
+    background-color:rgb(72, 4, 136);
+    color:antiquewhite;
+    padding: 16px 0;
+    text-align: center;
 }
