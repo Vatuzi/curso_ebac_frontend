@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    margin-top: 200px;
+    margin-left: 450px;
+    max-width: 480px;
+    width: 100%;
+    border: 20px solid #03471f;
+    border-radius: 20px;
+    box-shadow: 10px 20px rgb(155, 154, 154);
+
+}
+
+form {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+input, button {
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 60%;
+}
+
+.container h1,h4{
+    margin-left: 16px;
+}
+.container h1{
+    margin-top: 16px;
+}
+button {
+    background-color: #03471f;
+    border: none;
+    text-transform: uppercase;
+    color: #fdf7f7;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #012912;
+}
+
+.msgErro{
+    color:red;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.msgSucesso{
+    color: #03471f;
+    margin-left: 16px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    display: none;
+}
