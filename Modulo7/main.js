@@ -2,7 +2,7 @@ const form = document.getElementById('formValida');
 let formValido = false;
 
 function validaNumeros(num1,num2){
-    if(num1 < num2){
+    if(parseInt(num1,10) < parseInt(num2,10)){
         return true;
     }else{
         return false;
