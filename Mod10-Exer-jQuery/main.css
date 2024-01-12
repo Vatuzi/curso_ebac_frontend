@@ -44,3 +44,6 @@ button {
     border-radius: 6px;
     max-width: 120px;
 }
+.custom-error-message {
+    color: red;
+}
