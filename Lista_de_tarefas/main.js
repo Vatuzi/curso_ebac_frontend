@@ -11,7 +11,7 @@ $(document).ready(function(){
         $('#tarefa').val('');
 
         $( 'li' ).on( "click", function() {
-            $(this).toggleClass('lista clicado');
+            $(this).toggleClass('clicado');
           } );
     })
 })
