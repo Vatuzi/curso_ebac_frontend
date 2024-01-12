@@ -41,6 +41,10 @@ $(document).ready(function(){
             cpf: 'Por favor, insira o seu CPF!',
             cep: 'Por favor, insira o seu CEP!',
             endereco: 'Por favor, insira o seu endereço!'
+        },
+        errorPlacement: function (error, element) {    
+            error.addClass('custom-error-message');
+            error.insertAfter(element);
         }
     })
 })
