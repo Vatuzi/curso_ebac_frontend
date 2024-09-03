@@ -1,0 +1,21 @@
+@use 'config/reset';
+@use 'config/colors';
+@use 'config/header';
+@use 'secao/produtos';
+@use 'config/medias';
+
+body{
+    background-color: colors.$corDeFundo;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+
