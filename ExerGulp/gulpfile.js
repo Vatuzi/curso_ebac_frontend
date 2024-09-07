@@ -6,7 +6,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const imagemin = require('gulp-imagemin');
 
 function comprimeImagens(){
-    return gulp.src('./source/images/*')
+    return gulp.src('./source/images/*',{encoding: false})
     .pipe(imagemin())
     .pipe(gulp.dest('./build/images'))
 }
